@@ -18,5 +18,5 @@ connection.once('open',()=>{
 const server=app.listen(PORT,()=>{
     console.log(`Listening on port ${PORT}`)
 })
-require('.web.js')(app)
+require('./web')(app)
 

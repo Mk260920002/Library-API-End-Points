@@ -3,14 +3,15 @@ const model = require('../model');
 
 function validateBook(book) {
     const schema = Joi.object({
-        id:Joi.number().required(),
+       
         Title: Joi.string().required(),
         Author: Joi.string().required(),
-        Year_of_publication:Joi.string().required()
+        Year_of_publication:Joi.date().required()
       
     });
-
-    return schema.validate(book);
+    const result=schema.validate(book);
+    console.log('Validation',result);
+    return result ;
 }
 
 
