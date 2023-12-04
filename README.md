@@ -1,7 +1,7 @@
 # Library API Endpoints
 
 ## Description
-This project provides a set of API endpoints for managing a library system. It includes functionality for adding, updating, and deleting books.
+This project provides a set of API endpoints for managing a library system. It includes functionality for adding, updating, and Retrieval of books.
 
 ## Features
 - **Book Management:**
